@@ -1,6 +1,6 @@
 /**
  * @file 3color.h
- * @author Maximilian Gaber, 52009273
+ * @author
  * @brief Defines all structers used to solve 3color
  * @version 0.1
  * @date 12.11.2022

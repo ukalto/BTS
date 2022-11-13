@@ -1,6 +1,6 @@
 /**
  * @file sharedmemory.c
- * @author Maximilian Gaber, 52009273
+ * @author
  * @brief Defines all funtions of a sharedmemory
  * @version 0.1
  * @date 12.11.2022
@@ -17,7 +17,7 @@
 #include <string.h>
 #include <errno.h>
 
-#define SHM_NAME "/52009273_shm"
+#define SHM_NAME "/shm"
 
 /**
  * @brief Opens a shared memory and handles upcoming errors

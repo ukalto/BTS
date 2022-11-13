@@ -1,6 +1,6 @@
 /**
  * @file semaphore.c
- * @author Maximilian Gaber, 52009273
+ * @author
  * @brief Defines all funtions of a semaphore
  * @version 0.1
  * @date 12.11.2022
@@ -17,9 +17,9 @@
 #include <errno.h>
 #include <string.h>
 
-#define SEM_FREE "/52009273_sem_free"
-#define SEM_USED "/52009273_sem_used"
-#define SEM_WRITE_BLOCK "/52009273_sem_write"
+#define SEM_FREE "/sem_free"
+#define SEM_USED "/sem_used"
+#define SEM_WRITE_BLOCK "/sem_write"
 
 /**
  * @brief Opens a semaphore and handles upcoming errors if type 0 its for the supervisor if type 1 its for the generator

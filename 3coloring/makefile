@@ -1,5 +1,5 @@
 #  @file Makefile
-#  @author Maximilian Gaber, 52009273
+#  @author
 #  @brief This file is used to compile the project
 #  @version 0.1
 #  @date 12.11.2022

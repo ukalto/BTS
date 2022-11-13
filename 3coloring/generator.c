@@ -1,6 +1,6 @@
 /**
  * @file generator.c
- * @author Maximilian Gaber, 52009273
+ * @author
  * @brief Creates a generator which is responsible for writing solutions to the solution buffer which are read by the supervisor
  * @version 0.1
  * @date 12.11.2022
@@ -93,8 +93,8 @@ static int addNodes(int nodeIdx, int currLen, node_t **nodes){
  * @param edge 
  */
 static void convertEdge(char *toConvert, edge_t *edge){
-	edge->first_node = atoi(strtok(toConvert, "-"));
-	edge->second_node = atoi(strtok(NULL, "-"));
+	edge->first_node = strtol(strtok(toConvert, "-"), NULL, 10);
+	edge->second_node = strtol(strtok(NULL, "-"), NULL, 10);
 }
 
 /**

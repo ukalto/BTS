@@ -1,6 +1,6 @@
 /**
  * @file supervisor.c
- * @author Maximilian Gaber, 52009273
+ * @author
  * @brief Creates a supervisor which is responsible for reading solutions from generators
  * @version 0.1
  * @date 12.11.2022
@@ -126,7 +126,7 @@ int main(int argc, char **argv)
         exit(EXIT_FAILURE);
     }
 	if(argc > 1){
-		printf("%s: Arguments are not supported!", PROGRAM_NAME);
+		fprintf(stderr, "%s: Arguments are not supported!", PROGRAM_NAME);
 		exit(EXIT_FAILURE);
 	}
 
